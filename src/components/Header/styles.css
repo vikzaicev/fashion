@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.title {
+  font-weight: 700;
+  font-size: 40px;
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+.nav_link {
+  color: black;
+  font-size: 22px;
+  transition: all 0.3s ease;
+  &:hover {
+    color: brown;
+    text-decoration: underline;
+  }
+}
+.nav_link_sing {
+  color: #ffffff;
+  font-size: 24px;
+  background-color: black;
+  padding: 18px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  &:hover {
+    /* color: brown; */
+    background-color: brown;
+  }
+}

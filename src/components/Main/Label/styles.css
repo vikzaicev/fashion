@@ -1,0 +1,10 @@
+.label {
+  background-color: var(--yelow);
+  padding: 0 60px;
+}
+.label__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  mix-blend-mode: multiply;
+}

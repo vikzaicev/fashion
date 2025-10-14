@@ -1,0 +1,26 @@
+.paydey {
+  background-color: #f9df56;
+}
+.paydey__blok {
+  display: flex;
+  align-items: flex-end;
+  padding: 0;
+  /* height: 1007px; */
+}
+.foto {
+  overflow: hidden;
+}
+.foto2 {
+  mix-blend-mode: inherit;
+  width: 105%;
+  height: 105%;
+}
+
+.info1 {
+  background: linear-gradient(
+    0deg,
+    rgba(224, 195, 64, 1) 0%,
+    rgba(237, 206, 73, 1) 50%,
+    rgba(249, 223, 86, 1) 100%
+  );
+}

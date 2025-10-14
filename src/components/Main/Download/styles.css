@@ -1,0 +1,47 @@
+.down__blok {
+  margin: 20px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.down__info {
+  max-width: 507px;
+}
+
+.down__title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.down__text {
+  font-size: 24px;
+  color: #7c7c7c;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.down__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.down__btn1 {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 236px;
+  height: 71px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 3px solid #000;
+  &:hover {
+    box-shadow: 3px 3px 3px #7c7c7c;
+  }
+  &:hover .down__img {
+    transform: scale(1.1);
+  }
+}
+.down__img {
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+}

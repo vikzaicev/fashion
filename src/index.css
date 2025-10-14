@@ -1,0 +1,15 @@
+:root {
+  --yelow: #ebd96b;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* max-width: 1780px; */
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1780px;
+  padding: 30px;
+  margin: 0 auto;
+}
