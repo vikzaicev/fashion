@@ -40,7 +40,7 @@
 }
 .form__blok {
   max-width: 574px;
-  max-height: 87px;
+  /* max-height: 87px; */
   background-color: #fff;
   border-radius: 10px;
   padding: 10px;

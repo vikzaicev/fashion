@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Arrivals from "./components/Main/Arrivals/Arrivals";
 import { Download } from "./components/Main/Download/Download";
@@ -19,6 +20,7 @@ function App() {
       <Favorite />
       <Download />
       <Email />
+      <Footer />
     </>
   );
 }

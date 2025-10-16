@@ -1,0 +1,22 @@
+.footer {
+  background-color: #000;
+  padding: 130px 0;
+  @media (max-width: 1025px) {
+    padding: 100px 0;
+  }
+  @media (max-width: 1000px) {
+    padding: 80px 0;
+  }
+  @media (max-width: 426px) {
+    padding: 40px 0;
+  }
+}
+.footer__blok {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+}

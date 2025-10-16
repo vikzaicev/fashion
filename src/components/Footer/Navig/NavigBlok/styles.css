@@ -1,0 +1,17 @@
+.navigtitle {
+  color: #fff;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.naviglink {
+  color: #fff;
+  margin-bottom: 10px;
+  color: #8e8e8e;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.navigtitle:hover,
+.naviglink:hover {
+  color: aqua;
+}

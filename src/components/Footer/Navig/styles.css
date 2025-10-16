@@ -1,0 +1,8 @@
+.navig__blok {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  @media (max-width: 376px) {
+    flex-direction: column;
+  }
+}
