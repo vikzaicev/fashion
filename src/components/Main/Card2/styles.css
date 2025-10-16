@@ -1,6 +1,6 @@
 .card__image2 {
-  width: 834px;
-  height: 575px;
+  max-width: 834px;
+  max-height: 575px;
   overflow: hidden;
   border-radius: 20px;
   margin-bottom: 40px;
@@ -23,11 +23,11 @@
   align-items: center;
   justify-content: space-between;
 }
-.card__name {
+.card__name2 {
   font-size: 32px;
   font-weight: 600;
 }
-.card__link {
+.card__link2 {
   font-size: 24px;
   font-weight: 600;
   color: #7f7f7f;

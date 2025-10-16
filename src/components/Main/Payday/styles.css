@@ -6,6 +6,9 @@
   align-items: flex-end;
   padding: 0;
   /* height: 1007px; */
+  @media (max-width: 630px) {
+    flex-direction: column-reverse;
+  }
 }
 .foto {
   overflow: hidden;
@@ -23,4 +26,14 @@
     rgba(237, 206, 73, 1) 50%,
     rgba(249, 223, 86, 1) 100%
   );
+  @media (max-width: 1630px) {
+    font-size: 30px;
+    padding: 0 10px;
+  }
+}
+.info__descr2 {
+  margin-bottom: 20px;
+  @media (max-width: 1200px) {
+    font-size: 20px;
+  }
 }

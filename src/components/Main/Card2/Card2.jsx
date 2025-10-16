@@ -10,8 +10,8 @@ function Card({ card }) {
       </div>
       <div className="card__info">
         <div className="card__left">
-          <div className="card__name">{card.name}</div>
-          <div className="card__link">Explore Now!</div>
+          <div className="card__name2">{card.name}</div>
+          <div className="card__link2">Explore Now!</div>
         </div>
         <div className="card__right">
           <img src={img} alt="arrow" />

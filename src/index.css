@@ -12,4 +12,7 @@ body {
   max-width: 1780px;
   padding: 30px;
   margin: 0 auto;
+  @media (max-width: 650px) {
+    padding: 10px;
+  }
 }

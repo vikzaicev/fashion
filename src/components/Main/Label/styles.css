@@ -1,6 +1,12 @@
 .label {
   background-color: var(--yelow);
   padding: 0 60px;
+  @media (max-width: 870px) {
+    padding: 0 20px;
+  }
+  @media (max-width: 425px) {
+    padding: 0;
+  }
 }
 .label__list {
   display: flex;
