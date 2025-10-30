@@ -11,7 +11,7 @@ function Navig() {
   return (
     <div className="navig__blok">
       {dataNavig.map((blok) => {
-        return <NavigBlok blok={blok} />;
+        return <NavigBlok key={blok} blok={blok} />;
       })}
     </div>
   );

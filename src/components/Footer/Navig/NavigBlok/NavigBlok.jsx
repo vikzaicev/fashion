@@ -8,7 +8,11 @@ function NavigBlok({ blok }) {
       <div className="naviglinks">
         {blok.map((el, ind) => {
           if (ind > 0) {
-            return <div className="naviglink">{el}</div>;
+            return (
+              <div key={el} className="naviglink">
+                {el}
+              </div>
+            );
           }
         })}
       </div>

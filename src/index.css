@@ -4,12 +4,17 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  /* max-width: 1780px; */
+  max-width: 1780px;
+
   margin: 0 auto;
+}
+.no-scroll {
+  overflow: hidden;
 }
 
 .container {
-  max-width: 1780px;
+  /* max-width: 1780px; */
+
   padding: 30px;
   margin: 0 auto;
   @media (max-width: 650px) {
